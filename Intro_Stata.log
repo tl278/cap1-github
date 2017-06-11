@@ -1,0 +1,55 @@
+--------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  C:\Users\Tpham\Documents\Intro_Stata.log
+  log type:  text
+ opened on:   8 Apr 2014, 21:53:15
+
+. 
+end of do-file
+
+. do "C:\Users\Tpham\AppData\Local\Temp\STD05000000.tmp"
+
+. use cpsorg.dta, clear
+file cpsorg.dta not found
+r(601);
+
+end of do-file
+
+r(601);
+
+. do "C:\Users\Tpham\AppData\Local\Temp\STD05000000.tmp"
+
+. use cpsorg.dta, clear
+file cpsorg.dta not found
+r(601);
+
+end of do-file
+
+r(601);
+
+. do "C:\Users\Tpham\AppData\Local\Temp\STD05000000.tmp"
+
+. use cpsorg.dta, clear
+file cpsorg.dta not found
+r(601);
+
+end of do-file
+
+r(601);
+
+. cd: "F:\Microeconometrics materials"
+invalid syntax
+r(198);
+
+. cd "F:\Microeconometrics materials"
+F:\Microeconometrics materials
+
+. do "C:\Users\Tpham\AppData\Local\Temp\STD05000000.tmp"
+
+. 
+. use cpsorg.dta, clear
+
+. 
+end of do-file
+
+. exit, clear
